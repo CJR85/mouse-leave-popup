@@ -36,7 +36,10 @@
           <button type="submit">Subscribe</button>
         </form>
       </div>
-      <i class="fa-regular fa-circle-xmark close-icon"></i>
+      <i
+        class="fa-regular fa-circle-xmark close-icon"
+        onclick="closeModal()"
+      ></i>
     </div>
 
     <script>
@@ -45,6 +48,10 @@
       document.onmouseleave = function () {
         modelBox.style.display = 'block';
       };
+
+      function closeModal() {
+        modelBox.style.display = 'none';
+      }
     </script>
   </body>
 </html>
