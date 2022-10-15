@@ -24,3 +24,47 @@
   border-radius: 5px;
   overflow: hidden;
 }
+
+.offer-text {
+  padding: 20px 40px 40px 40px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.offer-text h2 {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.offer-text small {
+  display: inline-block;
+  color: #ff2b4e;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.offer-text form {
+  margin-top: 30px;
+  display: flex;
+  color: #efefef;
+  border-radius: 4px;
+}
+
+.offer-text form input {
+  flex: 1;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  padding: 12px 10px;
+}
+
+.offer-text form button {
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  background: #ff2b4e;
+  color: #fff;
+  padding: 0px 15px;
+  border-radius: 4px;
+}
